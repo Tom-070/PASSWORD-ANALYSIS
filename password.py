@@ -41,8 +41,9 @@ print("\nPassword Strength Score:", score)
 print("Entropy:", round(entropy, 2), "bits")
 
 if score <= 2:
-    print("Strength: WEAK ❌")
+    print("Strength: WEAK Password")
 elif score == 3 or score == 4:
-    print("Strength: MODERATE ⚠️")
+    print("Strength: MODERATE Password")
 else:
-    print("Strength: STRONG ✔️")
+    print("Strength: STRONG Password")
+
